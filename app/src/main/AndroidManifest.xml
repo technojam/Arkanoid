@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Anonimo">
         <activity
-            android:name=".activities.Warning_page"
+            android:name=".activities.introActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.WarningPage"
             android:exported="true" />
         <activity
             android:name=".activities.Signup"

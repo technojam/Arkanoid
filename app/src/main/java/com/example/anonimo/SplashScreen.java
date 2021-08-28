@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.example.anonimo.activities.Login;
+import com.example.anonimo.activities.introActivity;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -18,8 +19,10 @@ public class SplashScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent  splash_screen = new Intent(SplashScreen.this, Login.class);
-                startActivity(splash_screen);
+                startActivity(new Intent(SplashScreen.this, introActivity.class));
+
+
+
 
 
             }
