@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/drawable/ic_baseline_arrow_forward_24.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/drawable/indicator_selected.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/drawable/indicator_selector.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/drawable/login_bg_edit.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/layout/activity_hello.xml" value="0.2359375" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/layout/activity_intro.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/layout/activity_signup.xml" value="0.22083333333333333" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/layout/activity_splash_screen.xml" value="0.14583333333333334" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/layout/activity_warning_page.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/layout/activity_warning_page.xml" value="0.176" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/layout/activity_warning_page2.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Arkanoid/app/src/main/res/layout/layout_screen.xml" value="0.22083333333333333" />
       </map>
     </option>
   </component>
