@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Anonimo">
         <activity
+            android:name=".activities.all_in"
+            android:exported="true" />
+        <activity
             android:name=".activities.introActivity"
             android:exported="true" />
         <activity
