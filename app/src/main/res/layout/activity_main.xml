@@ -3,16 +3,66 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/black"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:layout_width="35dp"
+        android:id="@+id/settings_logo"
+
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+
+        android:src="@drawable/ic_baseline_settings_24"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="35dp"></ImageView>
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/settings_logo">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:menu="@menu/menu"
+        android:background="@drawable/bottom_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        tools:layout_editor_absoluteX="30dp">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+<!--    <com.etebarian.meowbottomnavigation.MeowBottomNavigation-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/nav"-->
+<!--        app:mbn_circleColor="@color/purple_500"-->
+<!--        app:mbn_selectedIconColor="@color/purple_200"-->
+<!--        app:mbn_countTextColor="@color/white"-->
+<!--        app:mbn_countBackgroundColor="@color/purple_200"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:background="@color/purple_200">-->
+
+<!--    </com.etebarian.meowbottomnavigation.MeowBottomNavigation>-->
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

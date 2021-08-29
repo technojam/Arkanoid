@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
     tools:context=".fragments.SearchFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textSize="43dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"></TextView>
 
-</FrameLayout>
+
+    <SearchView
+        android:layout_width="match_parent"
+
+
+        android:id="@+id/search"
+        android:background="@drawable/search_bg"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"></SearchView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/serch_recycle"
+        android:layout_marginTop="10dp"></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
+
+
+
+
